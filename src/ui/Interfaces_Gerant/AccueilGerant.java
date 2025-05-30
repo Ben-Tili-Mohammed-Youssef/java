@@ -277,6 +277,7 @@ public class AccueilGerant extends JFrame {
             case "gererCommandes":
                 activeSectionLabel.setText("Gestion des Commandes");
                 showCommandesPanel();
+                break;
             case "dashboard":
                 activeSectionLabel.setText("Tableau de Bord");
                 showDashboardPanel();
